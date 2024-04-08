@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+.header {
+  display: flex;
+  align-items: center; }
+  .header__logo {
+    margin-right: 50px; }
+  .header__phone {
+    margin-left: auto;
+    display: flex;
+    gap: 28px;
+    align-items: center; }
+    .header__phone-btn {
+      border-radius: 28px;
+      width: 180px;
+      height: 42px;
+      background: #f3f3f7;
+      cursor: pointer;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 200%;
+      color: #696f7a;
+      transition: 0.5s ease; }
+      .header__phone-btn:hover {
+        background-color: #f7d22d; }
+    .header__phone-phn {
+      font-weight: 700;
+      font-size: 26px;
+      text-transform: uppercase;
+      color: #f7d22d; }
+  .header__info-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 9px; }
+    .header__info-flex-down {
+      display: flex;
+      align-items: center;
+      gap: 7px; }
+      .header__info-flex-down-red {
+        border-radius: 100%;
+        background-color: #ff2e65;
+        height: 4px;
+        width: 4px; }
+      .header__info-flex-down-star {
+        margin-right: 14px; }
+    .header__info-flex-up .text {
+      font-weight: 600;
+      font-size: 17px;
+      color: #231f20; }
+      .header__info-flex-up .text .strong {
+        color: #f7d22d; }
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: F3F3F7;
+  font-weight: 600;
+  font-size: 15px;
+  color: #0e0c0d; }
+
+.container {
+  width: 1110px;
+  margin: 0 auto;
+  padding: 0 15px; }
+
+/*# sourceMappingURL=style.css.map */

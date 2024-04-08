@@ -1,0 +1,65 @@
+.header {
+    display: flex;
+    align-items: center;
+    &__logo {
+        margin-right: 50px;
+    }
+    &__phone {
+      margin-left: auto;
+      display: flex;
+      gap: 28px;
+      align-items: center;
+      &-btn {
+        border-radius: 28px;
+        width: 180px;
+        height: 42px;
+        background: #f3f3f7;
+        cursor: pointer;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 200%;
+        color: #696f7a;
+        transition: 0.5s ease;
+        &:hover {
+            background-color: #f7d22d;
+        }
+      }
+      &-phn {
+        font-weight: 700;
+        font-size: 26px;
+        text-transform: uppercase;
+        color: #f7d22d;
+      }
+    }
+    &__info {
+        &-flex {
+            display: flex;
+            flex-direction: column;
+            gap: 9px;
+            &-down {
+                display: flex;
+                align-items: center;
+                gap: 7px;
+                &-red {
+                    border-radius: 100%;
+                    background-color: #ff2e65;
+                    height: 4px;
+                    width: 4px;
+                }
+                &-star {
+                    margin-right: 14px;
+                }
+            }
+            &-up {
+                .text {
+                    font-weight: 600;
+                    font-size: 17px;
+                    color: #231f20;
+                    .strong {
+                        color: #f7d22d;
+                    }
+                }
+            }
+        }
+    }   
+}
