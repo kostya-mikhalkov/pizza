@@ -1,0 +1,22 @@
+.nav{
+    margin-top: 15px;
+    &__flex{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .nav__list{
+            display: flex;
+            gap: 18px;
+            .nav__item{
+                a {
+                    font-size: $main-size;
+                    color: $main-color;
+                }
+            }
+        }
+        .nav__basket{
+            display: flex;
+            gap: 31px;
+        }
+    }
+}

@@ -353,3 +353,9 @@ p{
 a {
   text-decoration: none;
 }
+li{
+  list-style-type: none;
+}
+ul{
+  padding: 0;
+}
