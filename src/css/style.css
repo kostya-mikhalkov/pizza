@@ -85,6 +85,10 @@
   font-size: 16px;
   color: #231f20; }
 
+.slider__wrapper {
+  display: flex;
+  gap: 20px; }
+
 body {
   font-family: "Montserrat", sans-serif;
   background-color: F3F3F7;
