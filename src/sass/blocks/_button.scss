@@ -1,0 +1,20 @@
+.btn__admin{
+    background: transparent;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+    color: #696f7a;
+}
+.btn__basket{
+    cursor: pointer;
+    width: 160px;
+    height: 42px;
+    background-color: #f7d22d;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    font-size: 16px;
+    color: #231f20;
+}
