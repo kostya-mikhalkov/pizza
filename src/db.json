@@ -1,0 +1,24 @@
+{
+  "newMenu": [
+    {
+        "name": "Карбонара",
+        "price": 120,
+        "src": "./img/newMenu/newProducts.svg"
+    },
+    {
+        "name": "Карбонара",
+        "price": 140,
+        "src": "./img/newMenu/newProducts.svg"
+    },
+    {
+        "name": "Карбонара",
+        "price": 150,
+        "src": "./img/newMenu/newProducts.svg"
+    },
+    {
+        "name": "Карбонара",
+        "price": 180,
+        "src": "./img/newMenu/newProducts.svg"
+    }
+  ]
+}
