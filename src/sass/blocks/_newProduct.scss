@@ -10,6 +10,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        flex-wrap: wrap;
         height: 99px;
     }
     &__box {
@@ -22,6 +23,7 @@
         height: 99px;
         box-shadow: 0 4px 24px 0 rgba(0, 0, 0, 0.06);
         background: #fff;
+        margin-bottom: 15px;
         cursor: pointer;
     }
     &__descr {

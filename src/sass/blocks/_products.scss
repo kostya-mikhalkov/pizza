@@ -1,0 +1,55 @@
+.products {
+    &__flex {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    &__cards {
+        width: 256px;
+        height: 466px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 28px;
+        &-img {
+            width: 253px;
+            height: 253px;
+            object-fit: cover;
+        }
+        &-title {
+            font-size: 24px;
+            line-height: 117%;
+            color: #797979;
+        }
+        &-text {
+            font-size: 13px;
+            line-height: 146%;
+            color: #686466;
+        }
+        &-prices {
+            display: flex;
+            justify-content: space-between;
+            gap: 30px;
+            align-items: center;
+            margin-top: 25px;
+            span {
+                font-weight: 700;
+                font-size: 22px;
+                line-height: 86%;
+                color: #231f20;
+            }
+            .add-btn {
+                width: 126px;
+                height: 36px;
+                border-radius: 8px;
+                background-color: $descr-color;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 200%;
+                color: #fff;
+                cursor: pointer;
+            }
+        }
+    }
+}
