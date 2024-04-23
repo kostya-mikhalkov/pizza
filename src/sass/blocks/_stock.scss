@@ -1,0 +1,43 @@
+.stock {
+    margin-top: 64px;
+    &__title {
+        text-align: center;
+        font-weight: 800;
+        font-size: 44px;
+        color: #cf7ca6;
+    }
+    &__flex {
+        display: flex;
+        gap: 29px;
+        margin-bottom: 49px;
+    }
+    &__action {
+        border-radius: 20px;
+        width: 541px;
+        height: 405px;
+    }
+    &__choice-action {
+        display: flex;
+        gap: 25px;
+        flex-wrap: wrap;
+        img {
+            border-radius: 20px;
+            width: 256px;
+            height: 195px;
+            cursor: pointer;
+        }
+    }
+    &__btn {
+        display: block;
+        margin: 0 auto;
+        width: 160px;
+        height: 48px;
+        background: $descr-color;
+        border-radius: 23px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 200%;
+        color: #fff;
+        cursor: pointer;
+    }
+}
