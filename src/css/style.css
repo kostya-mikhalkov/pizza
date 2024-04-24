@@ -252,6 +252,57 @@
     color: #fff;
     cursor: pointer; }
 
+.delivery {
+  max-width: 100%;
+  height: 688px;
+  background: #e3ecf5;
+  margin: 62px 0 80px 0; }
+  .delivery__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+    padding: 56px 0 74px 0; }
+  .delivery__title {
+    font-weight: 800;
+    font-size: 30px;
+    color: #f7d22d;
+    margin: 0; }
+  .delivery__info {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between; }
+  .delivery__box-info {
+    position: relative;
+    width: 255px;
+    height: 132px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+  .delivery__box-text {
+    text-align: center;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 43px 20px 28px 20px;
+    color: #473e43;
+    border-radius: 14px;
+    box-shadow: 0 4px 24px 0 rgba(0, 0, 0, 0.03);
+    background: #fff; }
+  .delivery__wrapp {
+    position: absolute;
+    left: 50%;
+    top: -22px;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    background: #fff;
+    padding: 17px; }
+  .delivery .map {
+    max-width: 100%;
+    width: 1110px;
+    height: 322px; }
+
 body {
   font-family: "Montserrat", sans-serif;
   background-color: F3F3F7;
